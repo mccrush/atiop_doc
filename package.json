@@ -1,0 +1,19 @@
+{
+  "name": "atiop_fuc",
+  "version": "1.0.0",
+  "description": "Some description",
+  "main": "index.html",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "insert after"
+  },
+  "author": "mccrush.ru",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
