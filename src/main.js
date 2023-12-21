@@ -1,5 +1,7 @@
 import './scss/styles.scss'
 
+import { Offcanvas } from 'bootstrap'
+
 import { createApp } from 'vue'
 import App from './App.vue'
 
