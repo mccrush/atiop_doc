@@ -1,6 +1,7 @@
 <template>
   <div
     class="offcanvas offcanvas-start"
+    data-bs-theme="dark"
     tabindex="-1"
     id="offcanvasExample"
     aria-labelledby="offcanvasExampleLabel"

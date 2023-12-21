@@ -1,11 +1,13 @@
 <template>
-  <ul class="list-unstyled ps-0">
-    <li v-for="item in menuItems" :key="item.position" class="mb-1">
-      <button
-        class="btn btn-sm btn-light btn-toggle d-inline-flex align-items-center w-100"
-      >
-        {{ item.title }}
-      </button>
+  <ul class="list-unstyled list-group ps-0">
+    <li
+      v-for="item in menuItems"
+      :key="item.position"
+      class="list-group-item list-group-item-action cursor-pointer"
+      data-bs-dismiss="offcanvas"
+      data-bs-target="#offcanvasExample"
+    >
+      {{ item.title }}
     </li>
   </ul>
 </template>
