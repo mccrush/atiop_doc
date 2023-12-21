@@ -1,8 +1,10 @@
 .DS_Store
 node_modules
 dist
+dist_vite
 apiKey.js
-.vuepress
+.firebase
+pnpm-lock.yaml
 
 # local env files
 .env.local
