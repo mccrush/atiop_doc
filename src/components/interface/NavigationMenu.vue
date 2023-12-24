@@ -6,6 +6,7 @@
       class="list-group-item list-group-item-action cursor-pointer"
       data-bs-dismiss="offcanvas"
       data-bs-target="#offcanvasExample"
+      @click="setPath(item.alias)"
     >
       {{ item.title }}
     </li>
@@ -19,6 +20,11 @@ export default {
   data() {
     return {
       menuItems
+    }
+  },
+  methods: {
+    setPath(alias) {
+      window.location.replace('/' + alias)
     }
   }
 }

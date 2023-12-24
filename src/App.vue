@@ -9,7 +9,7 @@
           <NavigationMenu class="" />
         </div>
 
-        <div class="col-12 col-md-9 col-xl-8 col-xxl-7 ps-md-1 border">
+        <div class="col-12 col-md-9 col-xl-8 col-xxl-7 ps-md-1">
           <component :is="currentView" />
         </div>
       </div>
@@ -66,8 +66,9 @@ export default {
     }
   },
   mounted() {
+    //console.log('this.currentPath = ', this.currentPath)
     window.addEventListener('hashchange', () => {
-      this.currentPath = window.location.hash
+      this.currentPath = window.location.pathname
     })
   }
 }
@@ -83,6 +84,14 @@ export default {
 .navbar-toggler:focus {
   outline: 0 !important;
   box-shadow: none !important;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .cursor-pointer,
