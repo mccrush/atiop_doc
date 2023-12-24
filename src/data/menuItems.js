@@ -1,5 +1,5 @@
 export const menuItems = [
-  { title: 'Руководство ATIOP', alias: '', page: 'PageNavigation', position: 0 },
+  { title: 'ATIOP Руководство', alias: '', page: 'PageNavigation', position: 0 },
   { title: 'Зачем нам это надо?', alias: 'why', page: 'PageWhy', position: 1 },
   { title: 'Что такое ATIOP?', alias: 'whats', page: 'PageWhats', position: 2 },
   { title: 'Обзор задач', alias: 'review', page: 'PageReview', position: 3 },
