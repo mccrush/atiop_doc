@@ -2,9 +2,7 @@
   <div>
     <TheNavbar />
     <TheSidebar />
-    <!-- <div class="container-fluid pt-3 pb-5">
-      <component :is="component" />
-    </div> -->
+
     <div class="container-fluid pt-3 pb-3">
       <div class="row">
         <div class="d-none d-md-block col-3">
@@ -65,11 +63,9 @@ export default {
   computed: {
     currentView() {
       return getRout(this.currentPath.slice(0) || '/') || PageNotFound
-      //return routes[this.currentPath.slice(1) || '/'] || PageNotFound
     }
   },
   mounted() {
-    console.log('currentPath = ', this.currentPath)
     window.addEventListener('hashchange', () => {
       this.currentPath = window.location.hash
     })
