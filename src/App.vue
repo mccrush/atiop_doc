@@ -12,14 +12,7 @@
         </div>
 
         <div class="col-12 col-md-9 ps-md-1">
-          Как все успеть? Вопрос, которым задаются тысячи людей по всему Миру.
-          На самом деле, ощущение того, что сколько бы мы ни выполнили, а
-          количество задач как будто бы не уменьшается – иллюзия, вызванная
-          причиной отсутствия видения картины в целом. Другими словами, если
-          выписать и распределить все существующие задачи по категориям, и затем
-          помечать или удалять выполненные, то станет видно, что их число
-          конечно и оно уменьшается. То есть, перовое что нужно сделать, это
-          зафиксировать задачи. На бумаге или в электронном виде – не важно.
+          <component :is="currentView" />
         </div>
       </div>
     </div>
@@ -28,17 +21,58 @@
 </template>
 
 <script>
+import { getRout } from './helpers/getRout'
+
 import TheNavbar from './components/interface/TheNavbar.vue'
 import TheSidebar from './components/interface/TheSidebar.vue'
 import NavigationMenu from './components/interface/NavigationMenu.vue'
 import TheFooter from './components/interface/TheFooter.vue'
+
+import PageNavigation from './pages/PageNavigation.vue'
+import PageWhy from './pages/PageWhy.vue'
+import PageWhats from './pages/PageWhats.vue'
+import PageReview from './pages/PageReview.vue'
+import PageNext from './pages/PageNext.vue'
+import PageDate from './pages/PageDate.vue'
+import PageGTD from './pages/PageGTD.vue'
+import PageFurther from './pages/PageFurther.vue'
+import PageContacts from './pages/PageContacts.vue'
+import PageNotFound from './pages/PageNotFound.vue'
 
 export default {
   components: {
     TheNavbar,
     TheSidebar,
     NavigationMenu,
-    TheFooter
+    TheFooter,
+
+    PageNavigation,
+    PageWhy,
+    PageWhats,
+    PageReview,
+    PageNext,
+    PageDate,
+    PageGTD,
+    PageFurther,
+    PageContacts,
+    PageNotFound
+  },
+  data() {
+    return {
+      currentPath: window.location.pathname
+    }
+  },
+  computed: {
+    currentView() {
+      return getRout(this.currentPath.slice(0) || '/') || PageNotFound
+      //return routes[this.currentPath.slice(1) || '/'] || PageNotFound
+    }
+  },
+  mounted() {
+    console.log('currentPath = ', this.currentPath)
+    window.addEventListener('hashchange', () => {
+      this.currentPath = window.location.hash
+    })
   }
 }
 </script>
