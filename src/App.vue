@@ -69,6 +69,7 @@ export default {
     //console.log('this.currentPath = ', this.currentPath)
     window.addEventListener('hashchange', () => {
       this.currentPath = window.location.pathname
+      console.log('this.currentPath = ', this.currentPath)
     })
   }
 }

@@ -8,6 +8,6 @@ const routes = Object.fromEntries(preRoutes)
 
 export const getRout = path => {
   // console.log('routes = ', routes);
-  // console.log('path = ', path);
+  console.log('getRout() path = ', path);
   return routes[path]
 }
