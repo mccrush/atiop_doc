@@ -24,16 +24,7 @@ export default {
   },
   methods: {
     setPath(alias) {
-      console.log(
-        'setPath() window.location.pathname B = ',
-        window.location.pathname
-      )
-      //window.location.replace('/' + alias)
-      window.location.pathname = '/' + alias
-      console.log(
-        'setPath() window.location.pathname A = ',
-        window.location.pathname
-      )
+      window.location.hash = '#/' + alias
     }
   }
 }

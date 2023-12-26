@@ -57,19 +57,17 @@ export default {
   },
   data() {
     return {
-      currentPath: window.location.pathname
+      currentPath: window.location.hash
     }
   },
   computed: {
     currentView() {
-      return getRout(this.currentPath.slice(0) || '/') || PageNotFound
+      return getRout(this.currentPath.slice(1) || '/') || PageNotFound
     }
   },
   mounted() {
-    //console.log('this.currentPath = ', this.currentPath)
     window.addEventListener('hashchange', () => {
-      this.currentPath = window.location.pathname
-      console.log('this.currentPath = ', this.currentPath)
+      this.currentPath = window.location.hash
     })
   }
 }
