@@ -6,7 +6,7 @@
     <div class="container-lg pt-3 pb-3">
       <div class="row">
         <div class="d-none d-md-block col-3 col-xxl-2">
-          <NavigationMenu class="" />
+          <NavigationMenu :currentPath="currentPath.slice(2)" />
         </div>
 
         <div class="col-12 col-md-9 col-xl-8 col-xxl-7 ps-md-1 pb-4">
