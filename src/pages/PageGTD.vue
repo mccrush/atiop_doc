@@ -30,7 +30,12 @@
 
     <p>
       А для работы с задачами, предлагаем воспользоваться нашим приложением
-      ATIOP.
+      <a
+        href="https://atiop.ru/"
+        target="_blank"
+        title="Открыть приложение ATIOP"
+        >ATIOP</a
+      >.
     </p>
   </div>
 </template>

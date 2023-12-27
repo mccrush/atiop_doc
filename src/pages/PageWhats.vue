@@ -9,6 +9,14 @@
       для работы с описанной далее методикой.
     </p>
 
-    <p>Ссылка на приложение ATIOP <a href="https://atiop.ru/">atiop.ru</a></p>
+    <p>
+      Ссылка на приложение ATIOP
+      <a
+        href="https://atiop.ru/"
+        target="_blank"
+        title="Открыть приложение ATIOP"
+        >atiop.ru</a
+      >
+    </p>
   </div>
 </template>
