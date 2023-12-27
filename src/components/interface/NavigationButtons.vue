@@ -53,6 +53,7 @@ export default {
   methods: {
     setPath(alias) {
       window.location.hash = '#/' + alias
+      window.scrollTo(0, 0)
     }
   },
   mounted() {
