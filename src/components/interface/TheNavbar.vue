@@ -16,7 +16,7 @@
           class="d-inline-block mb-1 me-2"
           alt="ATIOP"
         />
-        Руководство
+        ATIOP Руководство
       </div>
       <div class="d-none d-sm-block navbar-brand p-0">
         <img
