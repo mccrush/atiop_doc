@@ -9,8 +9,9 @@
           <NavigationMenu class="" />
         </div>
 
-        <div class="col-12 col-md-9 col-xl-8 col-xxl-7 ps-md-1">
+        <div class="col-12 col-md-9 col-xl-8 col-xxl-7 ps-md-1 pb-4">
           <component :is="currentView" />
+          <NavigationButtons />
         </div>
       </div>
     </div>
@@ -24,6 +25,7 @@ import { getRout } from './helpers/getRout'
 import TheNavbar from './components/interface/TheNavbar.vue'
 import TheSidebar from './components/interface/TheSidebar.vue'
 import NavigationMenu from './components/interface/NavigationMenu.vue'
+import NavigationButtons from './components/interface/NavigationButtons.vue'
 import TheFooter from './components/interface/TheFooter.vue'
 
 import PageNavigation from './pages/PageNavigation.vue'
@@ -42,6 +44,7 @@ export default {
     TheNavbar,
     TheSidebar,
     NavigationMenu,
+    NavigationButtons,
     TheFooter,
 
     PageNavigation,
