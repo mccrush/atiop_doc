@@ -16,7 +16,7 @@
       ></button>
     </div>
     <div class="offcanvas-body">
-      <NavigationMenu />
+      <NavigationMenu :currentPath="currentPath" />
     </div>
   </div>
 </template>
@@ -27,6 +27,9 @@ import NavigationMenu from './NavigationMenu.vue'
 export default {
   components: {
     NavigationMenu
+  },
+  props: {
+    currentPath: String
   }
 }
 </script>

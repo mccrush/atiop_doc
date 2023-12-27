@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheNavbar />
-    <TheSidebar />
+    <TheSidebar :currentPath="currentPath.slice(2)" />
 
     <div class="container-lg pt-3 pb-3">
       <div class="row">
