@@ -7,7 +7,6 @@ const preRoutes = menuItems.map(({ alias, page }) => {
 const routes = Object.fromEntries(preRoutes)
 
 export const getRout = path => {
-  // console.log('routes = ', routes);
-  console.log('getRout() path = ', path);
+  //console.log('getRout() path = ', path);
   return routes[path]
 }
