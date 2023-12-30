@@ -14,7 +14,13 @@
       рекомендуем использовать его. Но на самом деле, подойдет любое в котором
       можно организовать работу со списками аналогичным образом.
     </p>
-
+    <div class="text-center mb-4">
+      <img
+        src="/img/pages/next/app_structure.png"
+        class="img-fluid rounded img-thumbnail"
+        alt="Структура списков"
+      />
+    </div>
     <p>
       Теперь, когда у нас перед глазами проекты с принадлежащими им задачами,
       приступаем к самому интересному &ndash; приоритезацией задач. Ключевой
@@ -34,5 +40,12 @@
       В приложении ATIOP порядок задач можно задавать с помощью свойства
       &laquo;позиция&raquo;.
     </p>
+    <div class="text-center mb-4">
+      <img
+        src="/img/pages/next/change_position.png"
+        class="img-fluid rounded img-thumbnail"
+        alt="Поле изменения позиции задачи"
+      />
+    </div>
   </div>
 </template>
