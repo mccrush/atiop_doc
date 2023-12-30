@@ -8,11 +8,17 @@
       задачи есть специальное поле, где ее можно указать.
     </p>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/date/add_date.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="Поле указания даты выполнения задачи"
-      />
+      <a
+        href="/img/pages/date/add_date.png"
+        data-fancybox
+        data-caption="Поле указания даты выполнения задачи"
+      >
+        <img
+          src="/img/pages/date/add_date.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="Поле указания даты выполнения задачи"
+        />
+      </a>
     </div>
     <p>
       Мы предусмотрели возможность просмотра всех задача у которых указана дата,
@@ -20,11 +26,17 @@
       приложением начинать с просмотра именно этой страницы.
     </p>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/date/view_task_date.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="Страница просмотра задач с датами"
-      />
+      <a
+        href="/img/pages/date/view_task_date.png"
+        data-fancybox
+        data-caption="Страница просмотра задач с датами"
+      >
+        <img
+          src="/img/pages/date/view_task_date.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="Страница просмотра задач с датами"
+        />
+      </a>
     </div>
     <p>
       Если по какой-то причине не удалось выполнить задачу в указанный срок, то

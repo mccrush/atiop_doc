@@ -15,11 +15,17 @@
       можно организовать работу со списками аналогичным образом.
     </p>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/next/app_structure.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="Структура списков"
-      />
+      <a
+        href="/img/pages/next/app_structure.png"
+        data-fancybox
+        data-caption="Структура списков"
+      >
+        <img
+          src="/img/pages/next/app_structure.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="Структура списков"
+        />
+      </a>
     </div>
     <p>
       Теперь, когда у нас перед глазами проекты с принадлежащими им задачами,
@@ -41,11 +47,17 @@
       &laquo;позиция&raquo;.
     </p>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/next/change_position.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="Поле изменения позиции задачи"
-      />
+      <a
+        href="/img/pages/next/change_position.png"
+        data-fancybox
+        data-caption="Поле изменения позиции задачи"
+      >
+        <img
+          src="/img/pages/next/change_position.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="Поле изменения позиции задачи"
+        />
+      </a>
     </div>
   </div>
 </template>

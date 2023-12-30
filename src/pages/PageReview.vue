@@ -8,11 +8,17 @@
       месте, чтобы была возможность видеть их все сразу.
     </p>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/review/step_1.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="1 этап - выписать все задачи"
-      />
+      <a
+        href="/img/pages/review/step_1.png"
+        data-fancybox
+        data-caption="1 этап - выписать все задачи"
+      >
+        <img
+          src="/img/pages/review/step_1.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="1 этап - выписать все задачи"
+        />
+      </a>
     </div>
     <p>
       Далее следует группировка. В нашей организационной структуре два уровня
@@ -20,18 +26,30 @@
       непосредственно будет содержать относящиеся к нему задачи.
     </p>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/review/step_2.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="2 этап - группировка задач по проектам"
-      />
+      <a
+        href="/img/pages/review/step_2.png"
+        data-fancybox
+        data-caption="2 этап - группировка задач по проектам"
+      >
+        <img
+          src="/img/pages/review/step_2.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="2 этап - группировка задач по проектам"
+        />
+      </a>
     </div>
     <div class="text-center mb-4">
-      <img
-        src="/img/pages/review/step_3.png"
-        class="img-fluid rounded img-thumbnail"
-        alt="3 этап - группировка проектов по направлениям"
-      />
+      <a
+        href="/img/pages/review/step_3.png"
+        data-fancybox
+        data-caption="3 этап - группировка проектов по направлениям"
+      >
+        <img
+          src="/img/pages/review/step_3.png"
+          class="img-fluid rounded img-thumbnail"
+          alt="3 этап - группировка проектов по направлениям"
+        />
+      </a>
     </div>
     <p>
       Как понять, является дело проектом или задачей? Если дело требует
